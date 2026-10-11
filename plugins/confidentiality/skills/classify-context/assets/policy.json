@@ -1,0 +1,35 @@
+{
+  "schema": "pmcro.confidentiality-policy/v1",
+  "levels": [
+    "PUBLIC",
+    "INTERNAL",
+    "CONFIDENTIAL",
+    "RESTRICTED"
+  ],
+  "labelPriority": {
+    "public": "PUBLIC",
+    "internal": "INTERNAL",
+    "company-confidential": "CONFIDENTIAL",
+    "nda": "CONFIDENTIAL",
+    "personal": "CONFIDENTIAL",
+    "private-intent": "CONFIDENTIAL",
+    "credential": "RESTRICTED",
+    "secret": "RESTRICTED",
+    "regulated": "RESTRICTED",
+    "restricted": "RESTRICTED"
+  },
+  "learning": {
+    "default": "DENY",
+    "rawTrailEligible": false,
+    "sanitizedArtifactOnly": true,
+    "public": "POLICY_ALLOWED",
+    "internal": "EXPLICIT_POLICY",
+    "confidential": "EXPLICIT_CONSENT_AND_POLICY",
+    "restricted": "DENY_UNTIL_SEPARATE_DECLASSIFICATION"
+  },
+  "disclosure": {
+    "minimumNecessary": true,
+    "confidentialAgreementRequired": true,
+    "restrictedAgreementRequired": true
+  }
+}

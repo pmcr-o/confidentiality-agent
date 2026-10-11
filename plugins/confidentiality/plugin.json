@@ -1,0 +1,8 @@
+{
+  "name": "confidentiality",
+  "version": "0.1.0",
+  "description": "Confidentiality, minimum-disclosure, and governed learning-artifact capabilities for PMCR-O company operation.",
+  "skills": [
+    "./skills/"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "registered": true,
+  "agent": "confidentiality-disclosure-agent",
+  "plugin": "confidentiality",
+  "description": "Create a minimum-disclosure handoff from explicit allowed fields, recipient scope, grants, and agreement references. Protected fields are redacted or rejected.",
+  "skill": "prepare-disclosure"
+}

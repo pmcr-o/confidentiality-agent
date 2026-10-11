@@ -1,0 +1,7 @@
+{
+  "registered": true,
+  "agent": "confidentiality-classifier-agent",
+  "plugin": "confidentiality",
+  "description": "Classify an artifact or trail reference into explicit confidentiality levels using caller-supplied labels and policy references without inferring undisclosed sensitive facts.",
+  "skill": "classify-context"
+}
