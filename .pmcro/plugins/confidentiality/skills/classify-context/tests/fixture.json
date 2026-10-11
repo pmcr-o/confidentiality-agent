@@ -1,0 +1,14 @@
+{
+    "expectedLevel":  "CONFIDENTIAL",
+    "artifactRef":  "trail:private-001",
+    "labels":  [
+                   "private-intent",
+                   "nda"
+               ],
+    "agreementRefs":  [
+                          "nda:employee-001"
+                      ],
+    "policyRefs":  [
+                       "policy:company-confidentiality"
+                   ]
+}`n

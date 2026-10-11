@@ -1,0 +1,12 @@
+{
+    "independentSurface":  true,
+    "plugin":  "confidentiality",
+    "id":  "confidentiality-learning-agent",
+    "kind":  "skill-agent",
+    "rawTrailTraining":  false,
+    "independentChecker":  false,
+    "parentAgent":  "confidentiality-agent",
+    "apiVersion":  "pmcro.dev/v1",
+    "defaultLearning":  "DENY",
+    "skill":  "promote-learning-artifact"
+}`n

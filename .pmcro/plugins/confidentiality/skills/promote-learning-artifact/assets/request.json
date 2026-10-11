@@ -1,0 +1,7 @@
+{
+  "registered": true,
+  "agent": "confidentiality-learning-agent",
+  "plugin": "confidentiality",
+  "description": "Promote a private operational record into a sanitized reusable learning artifact only when explicit consent, grants, policy, and retention requirements allow it.",
+  "skill": "promote-learning-artifact"
+}

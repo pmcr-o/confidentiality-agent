@@ -1,0 +1,17 @@
+{
+    "recipient":  "team:product",
+    "agreementRefs":  [
+                          "nda:team-001"
+                      ],
+    "allowedFields":  [
+                          "objective",
+                          "decision"
+                      ],
+    "classification":  "CONFIDENTIAL",
+    "grantRefs":  [
+                      "grant:product-read"
+                  ],
+    "protectedFields":  [
+                            "privateNote"
+                        ]
+}`n

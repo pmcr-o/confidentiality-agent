@@ -1,0 +1,23 @@
+{
+  "apiVersion": "pmcro.dev/v1",
+  "kind": "agent.catalog",
+  "id": "confidentiality-agent",
+  "authority": "read-only discovery; execution requires route + grant + runtime",
+  "skills": [
+    {
+      "id": "classify-context",
+      "plugin": "confidentiality",
+      "description": "Classify an artifact or trail reference from explicit caller-supplied labels and policy references without inferring undisclosed sensitive facts."
+    },
+    {
+      "id": "prepare-disclosure",
+      "plugin": "confidentiality",
+      "description": "Create a minimum-disclosure handoff from explicit allowed fields, recipient scope, grants, and agreement references."
+    },
+    {
+      "id": "promote-learning-artifact",
+      "plugin": "confidentiality",
+      "description": "Promote a sanitized operational record into a reusable learning artifact only when explicit consent, grants, policy, and retention rules allow it."
+    }
+  ]
+}

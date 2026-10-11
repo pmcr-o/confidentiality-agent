@@ -1,0 +1,11 @@
+{
+    "independentSurface":  true,
+    "plugin":  "confidentiality",
+    "id":  "confidentiality-classifier-agent",
+    "kind":  "skill-agent",
+    "independentChecker":  false,
+    "inferenceOfSensitiveFacts":  false,
+    "parentAgent":  "confidentiality-agent",
+    "apiVersion":  "pmcro.dev/v1",
+    "skill":  "classify-context"
+}`n

@@ -1,0 +1,11 @@
+{
+    "independentSurface":  true,
+    "plugin":  "confidentiality",
+    "id":  "confidentiality-disclosure-agent",
+    "kind":  "skill-agent",
+    "independentChecker":  false,
+    "minimumNecessary":  true,
+    "parentAgent":  "confidentiality-agent",
+    "apiVersion":  "pmcro.dev/v1",
+    "skill":  "prepare-disclosure"
+}`n

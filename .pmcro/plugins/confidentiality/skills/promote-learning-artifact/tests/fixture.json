@@ -1,0 +1,15 @@
+{
+    "expectedRawTrailIncluded":  false,
+    "allowedLearningFields":  [
+                                  "pattern",
+                                  "outcome"
+                              ],
+    "classification":  "CONFIDENTIAL",
+    "retentionDays":  30,
+    "sourceKind":  "sanitized-record",
+    "consent":  {
+                    "status":  "EXPLICIT",
+                    "learningAllowed":  true,
+                    "consentRef":  "consent:owner-001"
+                }
+}`n

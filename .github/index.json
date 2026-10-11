@@ -1,0 +1,28 @@
+{
+  "apiVersion": "pmcro.dev/v1",
+  "kind": "agent.index",
+  "agent": "confidentiality-agent",
+  "entries": [
+    {
+      "route": "@confidentiality-agent /confidentiality:classify-context",
+      "plugin": "confidentiality",
+      "skill": "classify-context",
+      "description": "Classify an artifact or trail reference from explicit caller-supplied labels and policy references without inferring undisclosed sensitive facts.",
+      "path": ".pmcro/plugins/confidentiality/skills/classify-context"
+    },
+    {
+      "route": "@confidentiality-agent /confidentiality:prepare-disclosure",
+      "plugin": "confidentiality",
+      "skill": "prepare-disclosure",
+      "description": "Create a minimum-disclosure handoff from explicit allowed fields, recipient scope, grants, and agreement references.",
+      "path": ".pmcro/plugins/confidentiality/skills/prepare-disclosure"
+    },
+    {
+      "route": "@confidentiality-agent /confidentiality:promote-learning-artifact",
+      "plugin": "confidentiality",
+      "skill": "promote-learning-artifact",
+      "description": "Promote a sanitized operational record into a reusable learning artifact only when explicit consent, grants, policy, and retention rules allow it.",
+      "path": ".pmcro/plugins/confidentiality/skills/promote-learning-artifact"
+    }
+  ]
+}

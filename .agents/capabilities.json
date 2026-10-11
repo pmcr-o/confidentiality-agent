@@ -1,0 +1,26 @@
+{
+  "schema": "pmcro.capabilities/v1",
+  "agent": "confidentiality-agent",
+  "executionRule": "registered AND runtime-present AND authorized",
+  "manualParity": {
+    "required": true,
+    "rule": "agent and manual terminal use the same scripts with the same arguments, exit codes, and evidence"
+  },
+  "capabilities": [
+    {
+      "plugin": "confidentiality",
+      "skill": "classify-context",
+      "route": "@confidentiality-agent /confidentiality:classify-context"
+    },
+    {
+      "plugin": "confidentiality",
+      "skill": "prepare-disclosure",
+      "route": "@confidentiality-agent /confidentiality:prepare-disclosure"
+    },
+    {
+      "plugin": "confidentiality",
+      "skill": "promote-learning-artifact",
+      "route": "@confidentiality-agent /confidentiality:promote-learning-artifact"
+    }
+  ]
+}

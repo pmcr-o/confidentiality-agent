@@ -1,0 +1,16 @@
+{
+  "schema": "dotagents.manifest/v1",
+  "name": "confidentiality-agent",
+  "owner": "pmcr-o",
+  "description": "Confidentiality domain orchestrator for declared data classification, minimum disclosure, and governed learning-artifact promotion.",
+  "invocationField": "plugin",
+  "plugins": [
+    {
+      "name": "confidentiality",
+      "source": "./.pmcro/plugins/confidentiality",
+      "description": "confidentiality capabilities owned by confidentiality-agent"
+    }
+  ],
+  "canonical": ".pmcro",
+  "projection": ".agents"
+}
